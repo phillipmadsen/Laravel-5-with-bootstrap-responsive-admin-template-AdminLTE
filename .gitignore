@@ -3,8 +3,8 @@
 Homestead.yaml
 .env
 _ide_helper.php
-/bootstrap/compiled.php
- 
+
+
 .env.*.php
 .env.php
 .DS_Store
