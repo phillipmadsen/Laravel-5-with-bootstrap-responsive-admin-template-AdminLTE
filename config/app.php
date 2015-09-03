@@ -137,13 +137,13 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        Collective\Html\HtmlServiceProvider::class,
-        Laracasts\Flash\FlashServiceProvider::class,
-        Mitul\Generator\GeneratorServiceProvider::class,
-        Spatie\PartialCache\PartialCacheServiceProvider::class,
-        Caffeinated\Menus\MenusServiceProvider::class,
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
+        // Collective\Html\HtmlServiceProvider::class,
+        // Laracasts\Flash\FlashServiceProvider::class,
+        // Mitul\Generator\GeneratorServiceProvider::class,
+        // Spatie\PartialCache\PartialCacheServiceProvider::class,
+        // Caffeinated\Menus\MenusServiceProvider::class,
+        // Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        // Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
