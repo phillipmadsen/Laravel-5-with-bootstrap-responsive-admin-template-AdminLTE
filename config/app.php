@@ -137,23 +137,13 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        // Collective\Html\HtmlServiceProvider::class,
-        // Laracasts\Flash\FlashServiceProvider::class,
-        // Mitul\Generator\GeneratorServiceProvider::class,
-        // Spatie\PartialCache\PartialCacheServiceProvider::class,
-        // Caffeinated\Menus\MenusServiceProvider::class,
-        // Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        // Barryvdh\Debugbar\ServiceProvider::class,
-
         /*
          * Application Service Providers...
          */
-
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
 
     ],
 
@@ -203,13 +193,6 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
-        'Form'      => Collective\Html\FormFacade::class,
-        'Html'      => Collective\Html\HtmlFacade::class,
-        'Flash'     => Laracasts\Flash\Flash::class,
-        'PartialCache' => Spatie\PartialCache\PartialCacheFacade::class,
-        'Menu'      => Caffeinated\Menus\Facades\Menu::class,
-        'Debugbar'  => Barryvdh\Debugbar\Facade::class,
 
     ],
 
