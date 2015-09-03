@@ -140,10 +140,15 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Mitul\Generator\GeneratorServiceProvider::class,
+        Spatie\PartialCache\PartialCacheServiceProvider::class,
+        Caffeinated\Menus\MenusServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
+
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
@@ -201,8 +206,10 @@ return [
 
         'Form'      => Collective\Html\FormFacade::class,
         'Html'      => Collective\Html\HtmlFacade::class,
-        'Flash'     => Laracasts\Flash\Flash::class
-
+        'Flash'     => Laracasts\Flash\Flash::class,
+        'PartialCache' => Spatie\PartialCache\PartialCacheFacade::class,
+        'Menu'      => Caffeinated\Menus\Facades\Menu::class,
+        'Debugbar'  => Barryvdh\Debugbar\Facade::class,
 
     ],
 
