@@ -11,14 +11,6 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
-Route::get('home', 'HomeController@index');
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
-
-Route::get('/reporting', ['uses' =>'ReportController@index', 'as' => 'Report']);
-Route::post('/reporting', ['uses' =>'ReportController@post']);
+Route::get('/', function () {
+    return view('welcome');
+});

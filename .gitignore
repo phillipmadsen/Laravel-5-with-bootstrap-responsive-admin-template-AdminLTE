@@ -1,3 +1,22 @@
 /vendor
 /node_modules
+Homestead.yaml
 .env
+_ide_helper.php
+/bootstrap/compiled.php
+ 
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+.idea
+/storage
+/images
+/img
+*.rar
+*.zip
+*.psd
+*.png
+*.jpg
+/New folder
+/New folder/*
